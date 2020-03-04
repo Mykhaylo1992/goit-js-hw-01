@@ -12,7 +12,6 @@ if (dronNumber === null) {
   } else {
     const sum = credits - totalPrice;
     console.log(
-      `Вы купили ${dronNumber} дроидов, на счету осталось ${sum} кредитов.`
-    );
+      `Вы купили ${dronNumber} дроидов, на счету осталось ${sum} кредитов.`);
   }
 }
